@@ -1,0 +1,15 @@
+ul.yiiPager{
+    display: inline-block;
+}
+ul.yiiPager > li{
+    display: inline-block;
+    border: 1px solid #00aedb;
+    padding: 3px 6px;
+}
+div.YiiPager{
+    display: block;
+}
+.items:after{
+    clear: both;
+    content: "";
+}

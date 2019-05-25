@@ -1,0 +1,79 @@
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+#map-canvas{
+    width: 100%;
+    height: 520px;
+}
+.pager li>a, .pager li>span {
+    border-radius: 3px;
+    margin-left: 3px;
+}
+ul.yiiPager .selected a {
+    background: #2e6ab1;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+ul.yiiPager a:link, ul.yiiPager a:visited {
+    color: white;
+    padding: 6px 12px;
+}
+.pager li>a:hover, .pager li>a:focus {
+    background-color: #4F81BD;
+    color: white;
+}
+.pager li>a, .pager li>span {
+    background-color: #4F81BD;
+    color: white;
+}
+#sidebar{
+    border: 1px solid #597ea2;
+}
+ul.operations li{
+    list-style: none;
+}
+ul.operations li a{
+    display: block;
+    padding: 5px 10px 5px 0px;
+}
+.portlet-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #4F81BD;
+    color: #ffffff;
+}
+.grid-view table.items th{
+    background-image: none;
+    background-color: #597ea2;
+}
+.grid-view table.items tr.odd{
+    background-color: #E6F2FF;
+}
+.grid-view table.items tr.even{
+    background-color: #fefefe;
+}
+.grid-view table.items tbody tr:hover{
+    background-color: #4F81BD;
+    color: white;
+}
+.grid-view table.items tr:hover.selected{
+    background-color: #597ea2;
+    color: white;
+}
+table.detail-view tr.odd{
+    background-color: #eeeeee;
+}
+.green{
+    background-color: #00a157;
+    color: #FFFFFF;
+}
+.red{
+    background-color: #ff8000;
+    color: #FFFFFF;
+}
+.navbar-nav>li>a{
+    padding: 15px;
+}
